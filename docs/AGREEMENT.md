@@ -1,6 +1,7 @@
 ---
 layout: agreement
 title: "用户协议"
+permalink: /agreement/
 ---
 
 ## 用户协议

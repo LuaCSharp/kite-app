@@ -1,6 +1,7 @@
 ---
 layout: license
 title: "隐私政策"
+permalink: /license/
 ---
 
 ## 隐私政策
