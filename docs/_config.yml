@@ -4,3 +4,4 @@ github:
   ios_url: "https://cn.bing.com"
   android_url: "https://cn.bing.com"
 title: "上应小风筝"
+baseurl: "/"
