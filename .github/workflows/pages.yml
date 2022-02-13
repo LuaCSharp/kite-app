@@ -14,5 +14,8 @@ jobs:
         with:
           source: ./docs
           destination: ./docs/_site
-
+      - name: archive
+        run: |
+          cd docs/
+          tar --dereference --hard-dereference --directory _site/ -cvf artifact.tar .
 
