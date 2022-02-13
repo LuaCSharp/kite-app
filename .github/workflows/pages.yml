@@ -15,7 +15,13 @@ jobs:
           source: ./docs
           destination: ./docs/_site
 
-      - run: sudo rm ./docs/_site/index.html
+      - run: |
+          sudo rm ./docs/_site/index.html
+          cd .docs && ls
+          cd _site && ls
+          cd ../../ && chmod -R 777 .docs/
+          cd .docs && ls
+          cd _site && ls
 
       - name: Copy file via SSH
         uses: appleboy/scp-action@v0.1.2
