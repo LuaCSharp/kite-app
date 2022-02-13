@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: license
 title: "隐私政策"
 permalink: /license/
 ---
