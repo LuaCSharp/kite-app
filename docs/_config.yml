@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+github:
+  is_project_page: false
+  ios_url: "https://cn.bing.com"
+  android_url: "https://cn.bing.com"
