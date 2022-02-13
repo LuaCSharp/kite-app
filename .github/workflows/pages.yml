@@ -17,9 +17,7 @@ jobs:
 
       - run: |
           sudo rm ./docs/_site/index.html
-          cd .docs && ls
-          cd _site && ls
-          cd ../../ && chmod -R 777 .docs/
+          sudo chmod -R 777 .docs/
           cd .docs && ls
           cd _site && ls
 
