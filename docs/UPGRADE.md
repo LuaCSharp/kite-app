@@ -1,6 +1,6 @@
 ---
-layout: download
-permalink: /download/
+layout: upgrade
+permalink: /upgrade/
 ---
 
 # 上应小风筝
