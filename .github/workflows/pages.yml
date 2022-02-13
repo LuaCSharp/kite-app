@@ -5,7 +5,7 @@ on:
 
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,8 +14,17 @@ jobs:
         with:
           source: ./docs
           destination: ./docs/_site
-      - name: archive
-        run: |
-          cd docs/
-          tar --dereference --hard-dereference --directory _site/ -cvf artifact.tar .
+
+      - run: rm -rf ./docs/_site/index.html
+
+      - name: Copy file via SSH
+        uses: appleboy/scp-action@v0.1.2
+        with:
+          host:     ${{ secrets.SERVER_HOST }}
+          port:     ${{ secrets.PORT }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_SECRET }}
+          source: ".docs/_site/"
+          target: "/var/kite/web/"
+          strip_components: 1
 
