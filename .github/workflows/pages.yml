@@ -28,7 +28,7 @@ jobs:
           port:     ${{ secrets.PORT }}
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_SECRET }}
-          source: "docs/_site/"
+          source: "docs/_site/*"
           target: "/var/kite/web/"
           strip_components: 1
 
