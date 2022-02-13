@@ -18,7 +18,6 @@ jobs:
       - run: |
           sudo chmod -R 777 docs/
           rm docs/_site/index.html
-          cd docs/_site && ls
 
 
       - name: Copy file via SSH
