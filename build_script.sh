@@ -1,1 +1,0 @@
-python3 ./tool/build-tool/main.py
