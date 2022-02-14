@@ -7,6 +7,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: prod
+      url: https://kite.sunnysab.cn
+
     steps:
       - uses: actions/checkout@v2
 
