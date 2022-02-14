@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 github:
   repository_url: "https://github.com/SIT-kite/kite-app"
-  ios_url: "https://cn.bing.com"
+  ios_url: "https://testflight.apple.com/join/JapyxBXn"
   android_url: "https://cowtransfer.com/s/e729c623771f4a"
 title: "上应小风筝"
 baseurl: "/"
