@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: prod
-      url: https://cdn.kite.sunnysab.cn/update/
+      url: https://cdn.kite.sunnysab.cn/upgrade/
 
     steps:
       - uses: actions/checkout@v2
