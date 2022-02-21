@@ -1,9 +1,10 @@
 theme: jekyll-theme-cayman
-github:
-  owner_name: "上海应用技术大学 小风筝团队"
-  repository_url: "https://github.com/SIT-kite/kite-app"
-  app_name: "上应小风筝"
-  ios_url: "https://apps.apple.com/cn/app/%E4%B8%8A%E5%BA%94%E5%B0%8F%E9%A3%8E%E7%AD%9D/id1606620340"
-  android_url: "https://cowtransfer.com/s/e729c623771f4a"
+lang: "zh-CN"
 title: "上应小风筝"
 baseurl: "/"
+github:
+  app_name: "上应小风筝"
+  owner_name: "上海应用技术大学 小风筝团队"
+  repository_url: "https://github.com/SIT-kite/kite-app"
+  ios_url:        "https://apps.apple.com/cn/app/%E4%B8%8A%E5%BA%94%E5%B0%8F%E9%A3%8E%E7%AD%9D/id1606620340"
+  android_url:    "https://cowtransfer.com/s/e729c623771f4a"
